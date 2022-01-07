@@ -1,0 +1,7 @@
+1 instalar python
+2 escribir el comando pip3 install . (https://github.com/neovim/pynvim)
+3.instalar tabnine en la carpeta de nvim git clone --depth 1 https://github.com/codota/tabnine-vim
+4. Agregar set rtp+=~/tabnine-vim -> alli la ruta dedbe especificarse ej (set rtp+=~/AppData/Local/nvim/tabnine-vim)
+5. npm install -g typescript-language-server
+
+Importante leer https://www.tabnine.com/semantic

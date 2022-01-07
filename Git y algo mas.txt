@@ -1,0 +1,6 @@
+git remote add origin https://github.com/user1unknow/React-Movies.git
+git branch -M main
+git push -u origin main
+
+
+https://www.youtube.com/watch?v=L4FhRtlk7GQ

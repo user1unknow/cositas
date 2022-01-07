@@ -1,0 +1,78 @@
+import { useCallback, useMemo, useState } from "react";
+import { getMoviesByName } from "../helpers/getMoviesByName";
+
+export const useForm = (initialValue = {}) => {
+	const [formState, setFormState] = useState(initialValue);
+	const [data, setData] = useState({ data: [], loading: true });
+
+	const handleInputChange = ({ target }) => {
+		setFormState({
+			...formState,
+			[target.name]: target.value,
+		});
+	};
+
+	const { searchMovie } = formState;
+	//	const memoized = useMemo(() => {
+	//		getMoviesByName(searchMovie).then(setData);
+	//	}, [searchMovie]);
+	//
+
+	const consultaqla = (searchqlo) => {
+		return new Promise((resolve, reject) => {
+			resolve(getMoviesByName(searchqlo));
+		});
+	};
+
+	const handleSubmit = async(e) => {
+		e.preventDefault();
+		const dataPLS = await consultaqla(searchMovie)
+		//consultaqla(searchMovie).then((e) => setData({ data: e, loading: false }));
+		const pene = dataPLS
+		setData({data: pene, loading:false})
+console.log(data)
+	};
+	return [formState, handleInputChange, handleSubmit];
+};
+
+
+
+
+
+
+////////////////////////////////////////////////
+
+
+import { useCallback, useState } from "react";
+import { getMoviesByName } from "../helpers/getMoviesByName";
+
+export const useForm = (initialValue = {}) => {
+	const [formState, setFormState] = useState(initialValue);
+	const [data, setData] = useState([]);
+
+	const handleInputChange = ({ target }) => {
+		setFormState({
+			...formState,
+			[target.name]: target.value,
+		});
+	};
+
+	const { searchMovie } = formState;
+	//	const memoized = useMemo(() => {
+	//		getMoviesByName(searchMovie).then(setData);
+	//	}, [searchMovie]);
+
+	const handleSubmit = useCallback(
+		(e) => {
+			e.preventDefault();
+			consultaqla(searchMovie);
+		},
+		[searchMovie]
+	);
+	const consultaqla = (searchqlo) => {
+		getMoviesByName(searchqlo).then(setData);
+	};
+	return [formState, data, handleInputChange, handleSubmit];
+};
+
+222222

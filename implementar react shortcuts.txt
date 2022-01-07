@@ -1,0 +1,9 @@
+*Implementar el rafc
+
+*implementar el 
+useEffect(()=>{
+effect
+return()=>{
+cleanup
+}
+},[input])

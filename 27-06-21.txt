@@ -1,0 +1,21 @@
+http://bulma.io/documentation/components/navbar/
+https://www.npmjs.com/package/react-beautiful-dnd
+https://www.youtube.com/watch?v=bZsMWorjtFI
+
+
+
+
+
+https://www.studytonight.com/javascript/javascript-features
+DROPDOWN MENU REACT ADVANCED ANIMATION
+https://www.youtube.com/watch?v=IF6k0uZuypA
+REACT LAZY LOADING
+https://www.youtube.com/watch?v=0-Ze5dEgVFk
+PAGINACION REACT FH
+https://www.youtube.com/watch?v=Q9jT1fZTV38
+
+What is the difference between .js, .tsx and .jsx in React?
+https://stackoverflow.com/questions/64343698/what-is-the-difference-between-js-tsx-and-jsx-in-react
+
+
+https://github.com/dev-ggaurav/responsive-hamburger-tutorial

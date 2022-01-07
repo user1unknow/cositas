@@ -1,0 +1,2 @@
+Como cambiar los colores globalmente de los componentes MUI
+https://mui.com/customization/theme-components/#default-props

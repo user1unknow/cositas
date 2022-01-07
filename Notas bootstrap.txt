@@ -1,0 +1,15 @@
+Notas bootstrap:
+Para usar el responsive y los tooggles se de be usar la importacion
+import "bootstrap/dist/css/bootstrap.min.css"
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+para el error de popper leer : https://stackoverflow.com/questions/57459917/how-to-fix-this-error-module-not-found-cant-resolve-popper-js
+y para solventarlo instalar pooper : npm install popper.js --save
+
+para alinear los elementos a la derecha se usa en el ul : ms-auto
+
+leer referencia para mas usos: 
+https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items
+
+
+En el error del href (The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles) usar el href="/#" leer mas en : 
+https://stackoverflow.com/questions/52801051/react-site-warning-the-href-attribute-requires-a-valid-address-provide-a-valid/56754782

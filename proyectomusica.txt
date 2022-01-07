@@ -1,0 +1,15 @@
+PROYECTO REPRODUCTOR DE MUSICA
+
+How to create a music player | custom audio player | using Html Css & JavaScript |
+https://www.youtube.com/watch?v=7UZbS-NBiD8
+
+https://www.google.com/search?client=opera-gx&q=etiqueta+video+html&sourceid=opera&ie=UTF-8&oe=UTF-8
+
+
+https://www.w3schools.com/TAgs/tag_source.asp
+
+
+https://www.youtube.com/watch?v=dBlr5gYeGAc
+
+Making an Audio Player with React and the Context API
+https://www.youtube.com/watch?v=f9SEs7UhFBs

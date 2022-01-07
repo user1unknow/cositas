@@ -1,0 +1,6 @@
+
+C:\Users\steve\AppData\Local\nvim\plugged\ultisnips\autoload\UltiSnips\map_keys.vim cambio del comando <tab> a <c-x>
+
+
+C:\Users\steve\AppData\Local\nvim\plugged\vim-react-snippets\UltiSnips\javascript.snippets
+archivo donde se carga el autocompletado 

@@ -1,0 +1,7 @@
+Animate.css
+
+Después de instalarlo con npm, tendrías que hacer el require en tu css.
+
+Podrías probar a usar @import "~animate.css/animate.css"; o únicamente @import "animate.css".
+
+Para usarlo se puede usar en cada componente o colocarlo en el index.js

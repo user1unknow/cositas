@@ -1,0 +1,11 @@
+//Como hacer un textfield con un tamaño especifico       
+
+ <TextField
+          name="description"
+          value={description}
+          onChange={handleInputChange}
+          multiline={true}
+          variant="outlined"
+          label="Description"
+          minRows="5"
+        />

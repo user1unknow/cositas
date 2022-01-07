@@ -1,0 +1,25 @@
+Here is your key: 7e143ea8
+
+Please append it to all of your API requests,
+
+OMDb API: http://www.omdbapi.com/?i=tt3896198&apikey=7e143ea8
+
+Click the following URL to activate your key: http://www.omdbapi.com/apikey.aspx?VERIFYKEY=9023f95d-2106-4a9e-8f20-234771bc9a94
+If you did not make this request, please disregard this email.
+
+__________________________________________________________________________________________________________________________________________________________
+https://www.themoviedb.org/
+
+API request + api key
+https://api.themoviedb.org/3/movie/550?api_key=6ec6635a806c61e4bb6f81c871f8c34c
+
+https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=6ec6635a806c61e4bb6f81c871f8c34c&page=2
+
+https://www.youtube.com/watch?v=9Bvt6BFf6_U
+
+
+https://api.themoviedb.org/3/discover/movie?with_genres=27&primary_release_year=2014&api_key=6ec6635a806c61e4bb6f81c871f8c34c
+
+
+ERRORES MAS COMUNES ASYNC AWAIT
+https://www.youtube.com/watch?v=y1ZqhQySFKw
